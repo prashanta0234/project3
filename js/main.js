@@ -15,7 +15,19 @@ $('#banner').slick({
     delay: 5,
     time: 500
 });
-new Filterizr('.filter-container');
+  var filterizd = $('.filtr-container').filterizr();
+  
+  $(".work_filter ul li").on('click',function(){
+  $(".work_filter ul li").removeClass('active');
+  $(this).addClass('active');
+    });
+
+  $('#bar1').barfiller();
+  $('#bar2').barfiller();
+  $('#bar3').barfiller();
+  $('#bar4').barfiller();
+
+
 
   
 

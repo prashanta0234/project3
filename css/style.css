@@ -404,7 +404,57 @@
 .work_item_all{
     padding-bottom: 70px;
 }
+.work {
+    padding-bottom: 60px;
+   
+}
 
+.work_filter {
+
+    margin: 50px 0;
+}
+
+.work_filter ul {
+
+
+    list-style-type: none;
+}
+.work_gallery {
+
+    position: relative;
+}
+
+.work_gallery img {
+
+    width: 100%;
+}
+
+
+
+.work_filter li {
+    display: inline-block;
+    cursor: pointer;
+    height: 35px;
+    width: 120px;
+    line-height: 35px;
+    text-align: center;
+    margin: 0 10px;
+    border: 1px solid #37a000;
+    font-size: 14px;
+    color: #37a000;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.work_filter ul .active,
+.work_filter ul li:hover {
+    background: #37a000;
+    color: #fff;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
 
 
 /* work finish */
